@@ -26,7 +26,7 @@ export default function Home() {
   ]
   return (
     <div className="min-h-screen gap-16 pt-40 flex flex-col items-center  bg-zinc-950 font-sans text-white dark:bg-black">
-      <section id="about" className="w-full max-w-xl space-y-4  ">
+      <section id="about" className="w-full max-w-xl space-y-4 px-10  ">
         <Image
           height={100}
           width={100}
@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* {work section}   */}
-      <section className="w-full max-w-xl space-y-4 ">
+      <section className="w-full max-w-xl space-y-4 px-10 ">
         <h1 className="text-2xl font-semibold ">Work</h1>
         <div className="border border-zinc-400 py-4 px-6 rounded-3xl ">
           <Image
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="projects" className="w-full max-w-xl space-y-4 ">
+      <section id="projects" className="w-full max-w-xl space-y-4 px-10 ">
         <h1 className="text-2xl font-semibold ">Projects</h1>
         {projects.map((item, index) => (
           <div key={index} className="flex justify-between group cursor-pointer  ">
@@ -122,7 +122,7 @@ export default function Home() {
 
       <Form/> 
 
-      <section id="contact" className="w-full max-w-xl space-y-4">
+      <section id="contact" className="w-full max-w-xl space-y-4 px-10">
         <div className="flex justify-center gap-2 ">
           <div className="border group border-zinc-800 px-6 py-4 text-xl rounded-lg hover:border-zinc-600   ">
             <FaInstagram className="group-hover:-translate-y-2 duration-300 cursor-pointer " />
@@ -139,7 +139,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="w-full max-w-xl space-y-4 pb-40 ">
+      <footer className="w-full max-w-xl space-y-4 px-10 pb-40 ">
         <div className="flex flex-col items-center ">
           <h1>Thanks for Visiting.</h1>
           <p className="text-sm text-gray-400 ">Have a nice day</p>

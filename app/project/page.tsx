@@ -7,8 +7,8 @@ import Link from "next/link"
 function page() {
   return (
     <div className="min-h-screen gap-16 pt-40 flex flex-col items-center  bg-zinc-950 font-sans text-white dark:bg-black">
-      <section className="w-full max-w-xl space-y-4 " >
-        <h1 className="text-2xl font-semibold " >Projects</h1>
+      <section className="w-full max-w-xl space-y-4 px-10 " >
+        <h1 className=" text-lg sm:text-xl lg:text-2xl font-semibold " >Projects</h1>
         <p className="text-[#909090]" >"A collection of projects that reflect my skills, creativity, and focus on problem-solving."</p>
         <div className="mt-10 space-y-4 pb-40" >
           <Link href={"https://bite-rush-rosy.vercel.app/"} ></Link>    

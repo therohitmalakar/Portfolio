@@ -12,7 +12,7 @@ function Sidebar() {
   const downloadUrl = `https://drive.google.com/uc?export=download&id=${FILE_ID}`;
 
   return (
-    <div className="fixed group z-10 top-[30%] left-10 w-fit gap-8 hover:gap-6 px-6 hover:pr-16 py-8 rounded-4xl hover:rounded-xl flex flex-col text-2xl text-gray-500 bg-[#121212] transition-all duration-600 ">
+    <div className="fixed group z-10 top-4 sm:top-[30%] left-[20%] sm:left-10 w-fit gap-8 hover:gap-6 px-6 hover:pr-16 py-8 rounded-4xl hover:rounded-xl flex sm:flex-col text-2xl text-gray-500 bg-[#121212] transition-all duration-600 ">
       <Link href={"/"} className="flex gap-4 hover:text-white cursor-pointer  ">
         <RiHome5Fill />
         <p className="text-sm font-semibold hidden group-hover:block ">Home</p>

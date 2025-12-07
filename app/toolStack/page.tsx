@@ -23,12 +23,12 @@ function page() {
   return (
     <div className="min-h-screen gap-16 pt-40 pb-40 flex flex-col items-center  bg-zinc-950 font-sans text-white dark:bg-black">
       <section className="w-full max-w-xl space-y-4 " >
-        <h1 className="text-2xl font-semibold ">Toolstack</h1>
-        <p className="text-[#909090]" >Technologies I rely on to craft seamless, modern digital experiences.</p>  
+        <h1 className="text-2xl font-semibold px-10 ">Toolstack</h1>
+        <p className="text-[#909090] px-10 " >Technologies I rely on to craft seamless, modern digital experiences.</p>  
         <Tools/>      
       </section>
 
-      <section className="w-full max-w-xl space-y-4 " >
+      <section className="w-full max-w-xl space-y-4 px-10 " >
         <h1>More Tools that I use</h1>
         <div className="grid grid-cols-7 gap-4 " >
           {

@@ -46,7 +46,7 @@ const Form = () => {
     }
 
   return (
-    <section className="w-full max-w-xl space-y-4 ">
+    <section className="w-full max-w-xl space-y-4 px-10 ">
         <h1 className="text-2xl font-semibold ">Get In Touch</h1>
         <div className="bg-[#121212]   border border-zinc-800 py-4 px-6 rounded-xl group duration-300 ">
           <h1 className="text-2xl font-semibold ">Send Message</h1>
