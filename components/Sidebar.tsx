@@ -6,13 +6,14 @@ import { BsCalendar2Fill } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
 import { IoDocumentText, IoPersonSharp } from "react-icons/io5";
 import { RiHome5Fill } from "react-icons/ri";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Sidebar() {
   const FILE_ID = "1ZcFpDreEBNMfwF42v6qLByKbHYUrKlrb";
   const downloadUrl = `https://drive.google.com/uc?export=download&id=${FILE_ID}`;
 
   return (
-    <div className="fixed group z-10 top-4 sm:top-[30%] left-[20%] sm:left-10 w-fit gap-8 hover:gap-6 px-6 hover:pr-16 py-8 rounded-4xl hover:rounded-xl flex sm:flex-col text-2xl text-gray-500 bg-[#121212] transition-all duration-600 ">
+    <div className="fixed group z-10 top-4 sm:top-[30%] left-1/6 sm:left-10 w-[60%] overflow-x-scroll gap-8 hover:gap-6 px-6 hover:pr-16 py-8 rounded-4xl hover:rounded-xl flex sm:flex-col text-2xl text-gray-500 bg-[#121212] transition-all duration-600 ">
       <Link href={"/"} className="flex gap-4 hover:text-white cursor-pointer  ">
         <RiHome5Fill />
         <p className="text-sm font-semibold hidden group-hover:block ">Home</p>
@@ -29,9 +30,9 @@ function Sidebar() {
 
       <Link
         href={"/project"}
-        className="group-hover:flex gap-4 hover:text-white cursor-pointer  hidden "
+        className="group-hover:flex gap-4 hover:text-white cursor-pointer  sm:hidden "
       >
-        <BsCalendar2Fill className="hidden group-hover:block" />
+        <BsCalendar2Fill className="sm:hidden group-hover:block" />
         <p className="text-sm font-semibold hidden group-hover:block ">
           Projects
         </p>
@@ -47,8 +48,8 @@ function Sidebar() {
       </Link>
 
       
-      <Link href={"/toolStack"} className="group-hover:flex gap-4 hover:text-white cursor-pointer  hidden ">
-        <FaToolbox className="hidden group-hover:block " />
+      <Link href={"/toolStack"} className="group-hover:flex gap-4 hover:text-white cursor-pointer  sm:hidden ">
+        <FaToolbox className="sm:hidden group-hover:block " />
         <p className="text-sm font-semibold hidden group-hover:block ">
           ToolStack
         </p>
