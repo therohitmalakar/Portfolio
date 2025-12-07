@@ -8,8 +8,8 @@ function SmoothScroll({children}:any) {
     useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
-      smooth: true,
-      smoothTouch: false,
+      smoothWheel: true,
+      
     });
 
     function raf(time:any) {
