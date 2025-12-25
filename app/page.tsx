@@ -19,10 +19,10 @@ export default function Home() {
   ]
 
   const projects = [
-    {image:"/nodejs.png",name:"BiteRush",link:"https://bite-rush-rosy.vercel.app/"},
-    {image:"/nodejs.png",name:"Limo Booking",link:"https://fcl-limo.vercel.app/"},
+    {image:"/fast-food.png",name:"BiteRush",link:"https://bite-rush-rosy.vercel.app/"},
+    // {image:"/nodejs.png",name:"Vehicle Hub",link:"https://fcl-limo.vercel.app/"},
     {image:"/thirdeye.svg",name:"Third Eye",link:"https://thirdeye-rho.vercel.app/"},
-    {image:"/nodejs.png",name:"Ochi",link:"https://ochi-clone-dark-mode.vercel.app/"},
+    {image:"/circle.svg",name:"Ochi",link:"https://ochi-clone-dark-mode.vercel.app/"},
   ]
   return (
     <div className="min-h-screen gap-16 pt-40 flex flex-col items-center  bg-zinc-950 font-sans text-white dark:bg-black">
