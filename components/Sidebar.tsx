@@ -10,7 +10,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 function Sidebar() {
   const FILE_ID = "1ZcFpDreEBNMfwF42v6qLByKbHYUrKlrb";
-  const downloadUrl = `https://drive.google.com/uc?export=download&id=${FILE_ID}`;
+  const downloadUrl = `https://drive.google.com/file/d/1vs6-TZWERX3vTf_wif3CS_u3sD2MbQZB/view?usp=drivesdk`;
 
   return (
     <div className="fixed group z-10 top-4 sm:top-[30%] left-1/6 sm:left-10 w-[60%] sm:w-fit overflow-x-scroll sm:overflow-hidden  gap-8 hover:gap-6 px-6 hover:pr-16 py-8 rounded-4xl hover:rounded-xl flex sm:flex-col text-2xl text-gray-500 bg-[#121212] transition-all duration-600 ">
